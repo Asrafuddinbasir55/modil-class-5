@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
+    import './App.css';
+import Device from './Components/Device/Device';
+import Watch from './Components/Watch/Watch';
+
+
+
+
+    function App() {
+  
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+      <Device name="uphone" price="1300"></Device>
+      <Watch></Watch>
+     </div>
+    );
+    }
 
-export default App;
+  
+    export default App;
+
+
